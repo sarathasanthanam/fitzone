@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fitzone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="cont">
+      <h1>Fitzone Fitness</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#plans">Plans</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="con">
+      <h2>Welcome to Fitzone Fitness</h2>
+      <p>Your fitness journey starts here. Join us to transform your body and mind.</p>
+      <a href="#membership" class="btn">Join Now</a>
+    </div>
+  </section>
+
+  <section id="services" class="info-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <h3>Personal Training</h3>
+          <p>One-on-one coaching to help you reach your fitness goals faster.</p>
+        </div>
+        <div class="service">
+          <h3>Group Classes</h3>
+          <p>Join yoga, Zumba, HIIT, and more fun group workout sessions.</p>
+        </div>
+        <div class="service">
+          <h3>Nutrition Plans</h3>
+          <p>Customized meal plans designed by nutrition experts.</p>
+        </div>
+        <div class="service">
+          <h3>24/7 Access</h3>
+          <p>Work out whenever you want with round-the-clock facility access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="info-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p><center>We offer personalized trainers and modern facilities to help you stay fit and healthy.</center></p>
+    </div>
+  </section>
+
+  <section id="schedule" class="info-section">
+    <div class="contain">
+      <h2>Class Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Class</th>
+            <th>Time</th>
+            <th>Trainer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>Yoga</td><td>7:00 AM - 8:00 AM</td><td>Karthick</td></tr>
+          <tr><td>Tuesday</td><td>HIIT</td><td>6:00 PM - 7:00 PM</td><td>SameerAhamed</td></tr>
+          <tr><td>Wednesday</td><td>Zumba</td><td>7:00 PM - 8:00 PM</td><td>Saranya</td></tr>
+          <tr><td>Thursday</td><td>Strength Training</td><td>6:00 AM - 7:00 AM</td><td>Saravanan</td></tr>
+          <tr><td>Friday</td><td>Personal Training</td><td>7:00 AM - 8:00 AM</td><td>BalaKumar</td></tr>
+          <tr><td>Saturday</td><td>CrossFit</td><td>9:00 AM - 10:00 AM</td><td>John</td></tr>
+          <tr><td>Sunday</td><td>Rest Day</td><td>-</td><td>-</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="gallery" class="info-section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/th.jpeg" alt="Gym Equipment" />
+        <img src="images/workout.jpeg" alt="Group Workout" />
+        <img src="images/yoga.jpeg" alt="Yoga Session" />
+        <img src="images/fitness.jpeg" alt="Fitness Trainer" />
+      </div>
+    </div>
+  </section>
+
+  <section id="trainers" class="info-section">
+    <h2>Trainers</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>BALAKUMAR</h3>
+        <p>Certified Personal Trainer with 10+ years of experience.</p>
+      </div>
+      <div class="card">
+        <h3>KARTHICK</h3>
+        <p>Yoga Instructor and Nutritionist, ACE Certified.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans" class="info-section">
+    <h2>Plans</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Basic Plan</h3>
+        <p>₹999/month<br>Access to gym floor and cardio equipment.</p>
+      </div>
+      <div class="card">
+        <h3>Standard Plan</h3>
+        <p>₹1499/month<br>Includes classes + basic trainer support.</p>
+      </div>
+      <div class="card">
+        <h3>Premium Plan</h3>
+        <p>₹1999/month<br>All features + personal training sessions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="membership" class="info-section">
+    <div class="container">
+      <h2>Join Now</h2>
+      <form onsubmit="joinNow(event)">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="info-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: fitzonegym@gmail.com</p>
+      <p>Phone: 9876543210</p>
+      <p>Address: ABC Fitness Ave, Healthy City, Fitland</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="cont">
+      <p>&copy; 2023 Fitzone Gym Fitness. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function joinNow(event) {
+      event.preventDefault();
+      alert("Thank you for joining Fitzone! We'll contact you soon.");
+      event.currentTarget.reset();
+    }
+  </script>
+</body>
+</html>
